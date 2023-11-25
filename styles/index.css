@@ -1,0 +1,36 @@
+body {
+    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(21, 10, 88);
+}
+/* INDEX SECTION */
+.img-container {
+    text-align: center;
+}
+.home-img {
+    width: 500px;
+}
+
+.home-title {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.list-item {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(88, 10, 87);
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.title {
+    background-color: darkmagenta;
+}
+
+.center {
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+    text-align: center;
+}
+
+.ingredients .list-item {
+    list-style: none;
+}
+
+.back-to-main {
+    text-decoration: none;
+    color: red;
+    background-color: yellow;
+}

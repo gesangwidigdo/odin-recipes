@@ -1,0 +1,19 @@
+body {
+    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(3, 44, 3);
+    color: white;
+}
+
+img {
+    width: 500px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    background-color: darkgreen;
+}

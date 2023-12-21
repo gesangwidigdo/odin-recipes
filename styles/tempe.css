@@ -1,45 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Righteous', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(88, 10, 87);
     color: white;
+    padding: 15px;
 }
 
-h1 {
-    font-size: 48px;
+.title-container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
 }
 
-h2 {
-    font-size: 32px;
+.img-container {
+    margin: 20px;
 }
 
-h3 {
-    font-size: 24px;
+img {
+    width: 500px;
 }
 
 .title {
     background-color: darkmagenta;
+    padding: 20px;
+    margin-top: 0;
 }
 
-.center {
-    text-align: center;
+.content {
+    width: 400px;
+    margin: 16px auto;
 }
 
-.img-container {
-    display: flex;
-    justify-content: center;
+.content .ingredients li, .content .step li {
+    padding: 5px;
 }
 
-.list-item {
-    text-align: center;
+.content .title {
+    margin-top: 0;
 }
 
-.ingredients .list-item {
-    list-style: none;
+.content ul li, .content ol li {
+    margin: 12px 0;
 }
 
-.back-to-main {
+a.main-menu {
     text-decoration: none;
     color: red;
     background-color: yellow;
+    padding: 5px;
 }
